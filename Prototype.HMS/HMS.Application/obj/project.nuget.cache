@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JkS8th9eSjs=",
+  "dgSpecHash": "y1HXrg8QCNw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototype.HMS\\HMS.Application\\HMS.Application.csproj",
+  "projectFilePath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.Application\\HMS.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nome\\.nuget\\packages\\azure.core\\1.40.0\\azure.core.1.40.0.nupkg.sha512",
     "C:\\Users\\Nome\\.nuget\\packages\\azure.identity\\1.12.0\\azure.identity.1.12.0.nupkg.sha512",

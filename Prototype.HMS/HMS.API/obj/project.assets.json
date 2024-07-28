@@ -4557,11 +4557,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototype.HMS\\HMS.API\\HMS.API.csproj",
+      "projectUniqueName": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.API\\HMS.API.csproj",
       "projectName": "HMS.API",
-      "projectPath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototype.HMS\\HMS.API\\HMS.API.csproj",
+      "projectPath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.API\\HMS.API.csproj",
       "packagesPath": "C:\\Users\\Nome\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototype.HMS\\HMS.API\\obj\\",
+      "outputPath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4583,11 +4583,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Nome\\Documents\\Prototypes\\Prototype.HMS\\HMS.Application\\HMS.Application.csproj": {
-              "projectPath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototype.HMS\\HMS.Application\\HMS.Application.csproj"
+            "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.Application\\HMS.Application.csproj": {
+              "projectPath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.Application\\HMS.Application.csproj"
             },
-            "C:\\Users\\Nome\\Documents\\Prototypes\\Prototype.HMS\\HMS.Infrastructure\\HMS.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototype.HMS\\HMS.Infrastructure\\HMS.Infrastructure.csproj"
+            "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.Infrastructure\\HMS.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.Infrastructure\\HMS.Infrastructure.csproj"
             }
           }
         }

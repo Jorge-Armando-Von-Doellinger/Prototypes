@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nome\\Documents\\Prototypes\\Prototype.HMS\\HMS.Infrastructure\\HMS.Infrastructure.csproj": {}
+    "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.Infrastructure\\HMS.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nome\\Documents\\Prototypes\\Prototype.HMS\\HMS.Core\\HMS.Core.csproj": {
+    "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.Core\\HMS.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototype.HMS\\HMS.Core\\HMS.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.Core\\HMS.Core.csproj",
         "projectName": "HMS.Core",
-        "projectPath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototype.HMS\\HMS.Core\\HMS.Core.csproj",
+        "projectPath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.Core\\HMS.Core.csproj",
         "packagesPath": "C:\\Users\\Nome\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototype.HMS\\HMS.Core\\obj\\",
+        "outputPath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\Nome\\Documents\\Prototypes\\Prototype.HMS\\HMS.Infrastructure\\HMS.Infrastructure.csproj": {
+    "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.Infrastructure\\HMS.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototype.HMS\\HMS.Infrastructure\\HMS.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.Infrastructure\\HMS.Infrastructure.csproj",
         "projectName": "HMS.Infrastructure",
-        "projectPath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototype.HMS\\HMS.Infrastructure\\HMS.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.Infrastructure\\HMS.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Nome\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototype.HMS\\HMS.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -98,8 +98,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Nome\\Documents\\Prototypes\\Prototype.HMS\\HMS.Core\\HMS.Core.csproj": {
-                "projectPath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototype.HMS\\HMS.Core\\HMS.Core.csproj"
+              "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.Core\\HMS.Core.csproj": {
+                "projectPath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.Core\\HMS.Core.csproj"
               }
             }
           }

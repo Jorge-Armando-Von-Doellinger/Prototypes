@@ -4,6 +4,8 @@ using Microsoft.EntityFrameworkCore;
 using HMS.Core.Interfaces.Repository;
 using HMS.Infrastructure.Persistence.Repository;
 using HMS.Infrastructure.Messaging;
+using HMS.Core.Interfaces.Messaging;
+using RabbitMQ.Client;
 
 namespace HMS.Infrastructure
 {
@@ -12,7 +14,8 @@ namespace HMS.Infrastructure
         public static IServiceCollection AddInfrastructure(this IServiceCollection services, string connectionString)
         {
             services
-                .AddContext(connectionString);
+                .AddContext(connectionString)
+                .AddChannels();
             return services;
         }
         /*public static IServiceCollection AddMessageBus(this IServiceCollection service)
@@ -28,6 +31,13 @@ namespace HMS.Infrastructure
                 //Server=localhost;Database=master;Trusted_Connection=True;[
                 //Será substituido pelo container docker
             });
+            return service;
+        }
+
+        public static IServiceCollection AddChannels(this IServiceCollection service)
+        {
+            ///IModel channel = new ChannelFactory().ChannelFactoryRabbitMQ();
+            service.AddSingleton<ChannelFactory>();
             return service;
         }
     }

@@ -2,6 +2,6 @@
 {
     public interface IMessageBusProcessor
     {
-        Task ProcessMessage(string routingKey, string bodyJson);
+        Task ProcessMessage(string routingKey, byte[] message);
     }
 }

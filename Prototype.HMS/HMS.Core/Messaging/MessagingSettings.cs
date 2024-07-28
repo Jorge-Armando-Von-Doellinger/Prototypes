@@ -17,6 +17,8 @@ namespace HMS.Core.Messaging
         public static string PostClientRouting { get; } = "client.post";
         public static string PutClientRouting { get; } = "client.put";
         public static string GetClientRouting { get; } = "client.get";
+        public static string GetClientByIDRouting { get; } = "client.get.id";
+        public static string ResponseRouting { get; } = "client.response";
 
     }
 }

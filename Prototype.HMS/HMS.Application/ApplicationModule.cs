@@ -35,9 +35,10 @@ namespace HMS.Application
             // ser Singleton (da classe que ele herda). Se possivel, refazer aquilo futuramente!
 
 
-            service.AddScoped<IMessageBusService, MessageBusService>();
+            //service.AddScoped<IMessageBusService, MessageBusService>();
             service.AddSingleton<IMessageBusProcessor, MessageBusProcessor>();
-            service.AddHostedService<MessageBusService>();
+            service.AddSingleton<IMessagePublisher, MessagePublisher>();
+            service.AddHostedService<MessageListener>();
             return service;
         }
  

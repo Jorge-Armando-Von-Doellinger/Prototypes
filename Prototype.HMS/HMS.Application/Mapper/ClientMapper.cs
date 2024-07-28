@@ -1,5 +1,6 @@
 ﻿using HMS.Application.DTOs;
 using HMS.Core.Entities;
+using HMS.Core.Messaging;
 
 namespace HMS.Application.Mapper
 {
@@ -48,7 +49,7 @@ namespace HMS.Application.Mapper
             return clientDTO;
         }
         public Client Mapper(ClientUpdateDTO client)
-        {
+        {   
             return new Client
             {
                 Id = client.ID,

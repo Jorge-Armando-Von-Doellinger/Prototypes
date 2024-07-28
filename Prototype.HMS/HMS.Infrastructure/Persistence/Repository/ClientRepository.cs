@@ -32,7 +32,7 @@ namespace HMS.Infrastructure.Persistence.Repository
             await _context.SaveChangesAsync();
             return await _context.Clients
                 .AsNoTracking()
-                .SingleOrDefaultAsync(x => x.Id == client.Id) is not null;
+                .FirstOrDefaultAsync(x => x.Id == client.Id) is null;
         }
 
         public async Task<Client> GetClientByIdAsync(long clientId)
