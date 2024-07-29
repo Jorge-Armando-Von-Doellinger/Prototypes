@@ -1,0 +1,16 @@
+c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.Infrastructure\bin\Debug\net8.0\Gateway.Infrastructure.deps.json
+c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.Infrastructure\bin\Debug\net8.0\Gateway.Infrastructure.dll
+c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.Infrastructure\bin\Debug\net8.0\Gateway.Infrastructure.pdb
+c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.Infrastructure\bin\Debug\net8.0\Gateway.Core.dll
+c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.Infrastructure\bin\Debug\net8.0\Gateway.Core.pdb
+c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.Infrastructure\obj\Debug\net8.0\Gateway.Infrastructure.csproj.AssemblyReference.cache
+c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.Infrastructure\obj\Debug\net8.0\Gateway.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.Infrastructure\obj\Debug\net8.0\Gateway.Infrastructure.AssemblyInfoInputs.cache
+c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.Infrastructure\obj\Debug\net8.0\Gateway.Infrastructure.AssemblyInfo.cs
+c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.Infrastructure\obj\Debug\net8.0\Gateway.Infrastructure.csproj.CoreCompileInputs.cache
+c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.Infrastructure\obj\Debug\net8.0\Gateway.Infrastructure.sourcelink.json
+c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.Infrastructure\obj\Debug\net8.0\Gateway..EE5B6311.Up2Date
+c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.Infrastructure\obj\Debug\net8.0\Gateway.Infrastructure.dll
+c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.Infrastructure\obj\Debug\net8.0\refint\Gateway.Infrastructure.dll
+c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.Infrastructure\obj\Debug\net8.0\Gateway.Infrastructure.pdb
+c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.Infrastructure\obj\Debug\net8.0\ref\Gateway.Infrastructure.dll

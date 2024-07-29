@@ -1,0 +1,12 @@
+c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.Core\bin\Debug\net8.0\Gateway.Core.deps.json
+c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.Core\bin\Debug\net8.0\Gateway.Core.dll
+c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.Core\bin\Debug\net8.0\Gateway.Core.pdb
+c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.Core\obj\Debug\net8.0\Gateway.Core.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.Core\obj\Debug\net8.0\Gateway.Core.AssemblyInfoInputs.cache
+c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.Core\obj\Debug\net8.0\Gateway.Core.AssemblyInfo.cs
+c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.Core\obj\Debug\net8.0\Gateway.Core.csproj.CoreCompileInputs.cache
+c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.Core\obj\Debug\net8.0\Gateway.Core.sourcelink.json
+c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.Core\obj\Debug\net8.0\Gateway.Core.dll
+c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.Core\obj\Debug\net8.0\refint\Gateway.Core.dll
+c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.Core\obj\Debug\net8.0\Gateway.Core.pdb
+c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.Core\obj\Debug\net8.0\ref\Gateway.Core.dll

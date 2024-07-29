@@ -7,4 +7,7 @@
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Gateway.Application\Gateway.Application.csproj" />
+  </ItemGroup>
 </Project>
