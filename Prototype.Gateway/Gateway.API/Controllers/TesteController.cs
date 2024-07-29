@@ -21,21 +21,35 @@ public class TesteController : ControllerBase
     [HttpGet]
     public async Task<ActionResult> GetTransactions()
     {
-        var transaction = await _processTransactions.GetAllTransaction();
-        return Ok(transaction);
+        var result = await _processTransactions.GetAllTransaction();
+        return Ok(result);
     }
 
     [HttpGet("ID")]
     public async Task<ActionResult> GetTransactionByID(string ID)
     {
-        var transactions = await _processTransactions.GetTransactionByID(ID);
-        return Ok(transactions);
+        var result = await _processTransactions.GetTransactionByID(ID);
+        return Ok(result);
     }
 
     [HttpPost]
-    public async Task<ActionResult<InternalResponse>> Get(TransactionDTO transaction)
+    public async Task<ActionResult<InternalResponse>> AddTransaction(TransactionDTO transaction)
     {
-        var a = await _processTransactions.AddProcess(transaction, "client");
-        return Ok(a);
+        var result = await _processTransactions.AddProcess(transaction, "client");
+        return Ok(result);
+    }
+
+    [HttpPut]
+    public async Task<ActionResult> UpdateTransaction(TransactionDTO transaction, string transactionID)
+    {
+        var result = _processTransactions.UpdateProcess(transactionID, transaction);
+        return Ok(result);
+    }
+
+    [HttpDelete]
+    public async Task<ActionResult> DeleteTransaction(string transactionID)
+    {
+        var result = await _processTransactions.DeleteProcess(transactionID);
+        return Ok(result);
     }
 }
