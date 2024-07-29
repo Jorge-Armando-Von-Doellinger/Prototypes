@@ -21,8 +21,8 @@ public class TesteController : ControllerBase
     [HttpGet]
     public async Task<ActionResult> GetTransactions()
     {
-        var result = await _processTransactions.GetAllTransaction();
-        return Ok(result);
+        var transaction = await _processTransactions.GetAllTransaction();
+        return Ok(transaction);
     }
 
     [HttpGet("ID")]
@@ -42,7 +42,7 @@ public class TesteController : ControllerBase
     [HttpPut]
     public async Task<ActionResult> UpdateTransaction(TransactionDTO transaction, string transactionID)
     {
-        var result = _processTransactions.UpdateProcess(transactionID, transaction);
+        var result = await _processTransactions.UpdateProcess(transactionID, transaction);
         return Ok(result);
     }
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Application\\Gateway.Application.csproj": {}
+    "c:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Application\\Gateway.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Application\\Gateway.Application.csproj": {
+    "c:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Application\\Gateway.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Application\\Gateway.Application.csproj",
+        "projectUniqueName": "c:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Application\\Gateway.Application.csproj",
         "projectName": "Gateway.Application",
-        "projectPath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Application\\Gateway.Application.csproj",
+        "projectPath": "c:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Application\\Gateway.Application.csproj",
         "packagesPath": "C:\\Users\\Nome\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Application\\obj\\",
+        "outputPath": "c:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Core\\Gateway.Core.csproj": {
-                "projectPath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Core\\Gateway.Core.csproj"
+              "c:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Core\\Gateway.Core.csproj": {
+                "projectPath": "c:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Core\\Gateway.Core.csproj"
               },
-              "c:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Infrastructure\\Gateway.Infrastructure.csproj": {
-                "projectPath": "c:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Infrastructure\\Gateway.Infrastructure.csproj"
+              "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Infrastructure\\Gateway.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Infrastructure\\Gateway.Infrastructure.csproj"
               }
             }
           }
@@ -60,10 +60,6 @@
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[8.0.0, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -86,14 +82,14 @@
         }
       }
     },
-    "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Core\\Gateway.Core.csproj": {
+    "c:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Core\\Gateway.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Core\\Gateway.Core.csproj",
+        "projectUniqueName": "c:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Core\\Gateway.Core.csproj",
         "projectName": "Gateway.Core",
-        "projectPath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Core\\Gateway.Core.csproj",
+        "projectPath": "c:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Core\\Gateway.Core.csproj",
         "packagesPath": "C:\\Users\\Nome\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Core\\obj\\",
+        "outputPath": "c:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -151,14 +147,14 @@
         }
       }
     },
-    "c:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Infrastructure\\Gateway.Infrastructure.csproj": {
+    "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Infrastructure\\Gateway.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Infrastructure\\Gateway.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Infrastructure\\Gateway.Infrastructure.csproj",
         "projectName": "Gateway.Infrastructure",
-        "projectPath": "c:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Infrastructure\\Gateway.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Infrastructure\\Gateway.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Nome\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -180,8 +176,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Core\\Gateway.Core.csproj": {
-                "projectPath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Core\\Gateway.Core.csproj"
+              "c:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Core\\Gateway.Core.csproj": {
+                "projectPath": "c:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Core\\Gateway.Core.csproj"
               }
             }
           }

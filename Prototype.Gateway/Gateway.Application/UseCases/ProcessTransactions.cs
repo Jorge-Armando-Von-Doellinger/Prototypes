@@ -81,7 +81,7 @@ public class ProcessTransactions
         try 
         {
             var data = await _repository.GetTransactions();
-            _response.ListDataJson = data;
+            await Task.Run(() => _response.ListDataJson = data);
         }
         catch (Exception ex)
         {

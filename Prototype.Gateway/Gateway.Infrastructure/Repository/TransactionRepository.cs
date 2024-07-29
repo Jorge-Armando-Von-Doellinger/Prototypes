@@ -9,7 +9,6 @@ using MongoDB.Bson.Serialization;
 using System.Text.Json.Nodes;
 using MongoDB.Bson.IO;
 using System.Text.Json.Serialization;
-using Amazon.Runtime.Internal.Transform;
 
 namespace Gateway.Infrastructure.Repository;
 
@@ -73,20 +72,27 @@ public class TransactionRepository : ITransactionRepository
         }
     }
 
-    public async Task<List<JsonObject>> GetTransactions()
+    public Task<List<JsonObject>> GetTransactions()
     {
         try
         {
-            string dataString = _collection
-                .FindAsync(Builders<BsonDocument>.Filter.Empty)
-                .ToJson(new JsonWriterSettings { Indent = true });
-            await Task.FromResult(dataString);
-            List<JsonObject> dataJson = JsonSerializer.Deserialize<List<JsonObject>>(dataString);
-            return await Task.FromResult(dataJson);
+            var documents = _collection.Find(Builders<BsonDocument>.Filter.Empty);
+            var transaction = new List<JsonObject>();
+            foreach(var document in documents.ToList())
+            {
+                var json = BsonSerializer.Deserialize<string>(documents.ToBsonDocument());
+                System.Console.WriteLine("Não é possivel brasil");
+                //JsonObject? dataObject = JsonNode.Parse(json).AsObject();
+                if(json == null)
+                    System.Console.WriteLine("Não é possivel");
+                //transaction.Add(json);
+            }
+            return Task.FromResult(transaction);
         }
-        catch
+        catch(Exception ex)
         {
-            return default;
+            Console.WriteLine("Erro??????????????????????");
+            throw ex;
         }
     }
 

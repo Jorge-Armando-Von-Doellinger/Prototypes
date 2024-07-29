@@ -933,8 +933,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Core\\Gateway.Core.csproj": {
-              "projectPath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Core\\Gateway.Core.csproj"
+            "c:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Core\\Gateway.Core.csproj": {
+              "projectPath": "c:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Core\\Gateway.Core.csproj"
             }
           }
         }
