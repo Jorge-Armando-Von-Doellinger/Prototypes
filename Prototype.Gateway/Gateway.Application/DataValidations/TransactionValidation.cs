@@ -10,8 +10,8 @@ public class TransactionValidation
             transaction.Origin.Trim().Length > 0;
         bool destationValidation = string.IsNullOrEmpty(transaction.Destination) ||
             transaction.Destination.Trim().Length > 0;
-        bool dataValidation = string.IsNullOrEmpty(transaction.DataJson) ||
-            transaction.DataJson.Trim().Length > 0;
+        bool dataValidation = string.IsNullOrEmpty(transaction.DataJson.ToString()) ||
+            transaction.DataJson.ToString().Trim().Length > 4;
         bool transactionSucess = originValidation && destationValidation && dataValidation;
         return await Task.FromResult(transactionSucess);
     }

@@ -17,11 +17,10 @@ public class TesteController : ControllerBase
     {
         _processTransactions = processTransactions;
     }
-    [HttpGet]
-    public ActionResult<InternalResponse> Get([FromBody] TransactionDTO transaction)
+    [HttpPost]
+    public async Task<ActionResult<InternalResponse>> Get(TransactionDTO transaction)
     {
-        var a = _processTransactions.AddProcess(transaction, "").ToJson();
-        Console.WriteLine(a);
+        var a = await _processTransactions.AddProcess(transaction, "client");
         return Ok(a);
     }
 }

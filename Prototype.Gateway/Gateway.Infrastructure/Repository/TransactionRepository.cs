@@ -21,24 +21,50 @@ public class TransactionRepository : ITransactionRepository
     {
         try
         {
-            var document = BsonDocument.Create(transaction);
-            await _collection.InsertOneAsync(document);
+            Console.WriteLine(transaction.DataJson.ToString());
+            bool parseSuccess = BsonDocument.TryParse(transaction.DataJson.ToString(), out BsonDocument document);
+            if (parseSuccess != false)
+            {
+                document.Add("origin", transaction.Origin);
+                document.Add("destination", transaction.Destination);
+                await Task.FromResult(document);
+                await _collection.InsertOneAsync(document);
+                //return true;
+                return true;
+            }
+            throw new Exception("Erro ao converter os dados da transação!");
+        }
+        catch(Exception ex)
+        {
+            throw new Exception(ex.Message);
+        }
+    }
+
+    public async Task<bool> DeleteTransaction(string ID)
+    {
+        try
+        {
+            await _collection.DeleteOneAsync(new BsonDocument().Add("_id", ID));
             return true;
         }
-        catch
+        catch (Exception ex)
         {
-            return false;
+            throw ex;
         }
     }
 
-    public Task<bool> DeleteTransaction(long ID)
+    public async Task<TransactionEntity> GetTransactionByID(string ID)
     {
-        throw new NotImplementedException();
-    }
-
-    public Task<TransactionEntity> GetTransactionByID()
-    {
-        throw new NotImplementedException();
+        try
+        {
+            var document = await _collection.FindAsync(new BsonDocument().Add("_id", ID));
+            TransactionEntity transaction = BsonSerializer.Deserialize<TransactionEntity>(document.ToBsonDocument());
+            return transaction;
+        }
+        catch(Exception ex)
+        {
+            throw ex;
+        }
     }
 
     public async Task<List<TransactionEntity>> GetTransactions()

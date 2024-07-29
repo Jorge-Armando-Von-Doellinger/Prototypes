@@ -8,8 +8,15 @@ public class Collections
 {
     public IMongoCollection<BsonDocument> GetDataCollection() 
     {
-        var client = new MongoClient("mongodb://mongodb:26017");
-        var database =  client.GetDatabase("transactions");
-        return database.GetCollection<BsonDocument>("DataTransactions");
+        try
+        {
+            var client = new MongoClient("mongodb://localhost:27017");
+            var database =  client.GetDatabase("transactions");
+            return database.GetCollection<BsonDocument>("DataTransactions");
+        }
+        catch (Exception ex)
+        {
+            throw new MongoException(ex.Message);
+        }
     }
 }

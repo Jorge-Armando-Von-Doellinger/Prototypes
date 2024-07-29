@@ -50,3 +50,4 @@ c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.API\bin\
 c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.API\bin\Debug\net8.0\Gateway.Application.pdb
 c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.API\bin\Debug\net8.0\Gateway.Core.pdb
 c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.API\bin\Debug\net8.0\Gateway.Infrastructure.pdb
+c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.API\bin\Debug\net8.0\Newtonsoft.Json.dll
