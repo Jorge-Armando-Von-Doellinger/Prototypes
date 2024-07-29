@@ -6,12 +6,19 @@ using MongoDB.Driver;
 using MongoDB.Bson;
 using System.Text.Json;
 using MongoDB.Bson.Serialization;
+using System.Text.Json.Nodes;
+using MongoDB.Bson.IO;
+using System.Text.Json.Serialization;
+using Amazon.Runtime.Internal.Transform;
 
 namespace Gateway.Infrastructure.Repository;
 
 public class TransactionRepository : ITransactionRepository
 {
     private readonly IMongoCollection<BsonDocument> _collection;
+
+    private const string ErrorDataConvert = "Erro ao converter os dados da transação!";
+
     public TransactionRepository(Collections collection)
     {
         _collection = collection.GetDataCollection();
@@ -21,7 +28,7 @@ public class TransactionRepository : ITransactionRepository
     {
         try
         {
-            Console.WriteLine(transaction.DataJson.ToString());
+            //Console.WriteLine(transaction.DataJson.ToString());
             bool parseSuccess = BsonDocument.TryParse(transaction.DataJson.ToString(), out BsonDocument document);
             if (parseSuccess != false)
             {
@@ -32,7 +39,7 @@ public class TransactionRepository : ITransactionRepository
                 //return true;
                 return true;
             }
-            throw new Exception("Erro ao converter os dados da transação!");
+            throw new Exception(ErrorDataConvert);
         }
         catch(Exception ex)
         {
@@ -53,13 +60,12 @@ public class TransactionRepository : ITransactionRepository
         }
     }
 
-    public async Task<TransactionEntity> GetTransactionByID(string ID)
+    public async Task<JsonObject> GetTransactionByID(string ID)
     {
         try
         {
             var document = await _collection.FindAsync(new BsonDocument().Add("_id", ID));
-            TransactionEntity transaction = BsonSerializer.Deserialize<TransactionEntity>(document.ToBsonDocument());
-            return transaction;
+            return await Task.FromResult(JsonSerializer.Deserialize<JsonObject>(document.ToJson()));
         }
         catch(Exception ex)
         {
@@ -67,13 +73,16 @@ public class TransactionRepository : ITransactionRepository
         }
     }
 
-    public async Task<List<TransactionEntity>> GetTransactions()
+    public async Task<List<JsonObject>> GetTransactions()
     {
         try
         {
-            var dataDocument = _collection.ToBsonDocument();
-            var data = BsonSerializer.Deserialize<List<TransactionEntity>>(dataDocument);
-            return await Task.FromResult(data);
+            string dataString = _collection
+                .FindAsync(Builders<BsonDocument>.Filter.Empty)
+                .ToJson(new JsonWriterSettings { Indent = true });
+            await Task.FromResult(dataString);
+            List<JsonObject> dataJson = JsonSerializer.Deserialize<List<JsonObject>>(dataString);
+            return await Task.FromResult(dataJson);
         }
         catch
         {
@@ -81,8 +90,23 @@ public class TransactionRepository : ITransactionRepository
         }
     }
 
-    public Task<bool> UpdateTransaction(TransactionEntity transaction)
+    public async Task<bool> UpdateTransaction(TransactionEntity transaction)
     {
-        throw new NotImplementedException();
+        try
+        {
+            var dataParseSucess = BsonDocument.TryParse(transaction.DataJson.ToString(), out BsonDocument data);
+            if(dataParseSucess)
+            {
+                var filter = Builders<BsonDocument>.Filter.Eq("_id", transaction.TransactionId);
+                var update = new BsonDocument { { "$set", data } };
+                await _collection.UpdateOneAsync(filter, update);
+                return true;
+            }
+            throw new Exception(ErrorDataConvert);
+        }
+        catch(Exception ex)
+        {
+            throw ex;
+        }
     }
 }

@@ -23,7 +23,13 @@ public class DataService
         if(await _validation.SimpleValidation(transactionDTO) == false)
             throw new Exception("Dados inválidos!");
         
-        //System.Console.WriteLine(transactionDTO.DataJson);
         return await Task.FromResult( _mapper.Map(transactionDTO) );
     }
+
+        public async Task<TransactionEntity> DataManipulation(TransactionDTO transactionDTO, string transactionID)
+        {
+            var data = await DataManipulation(transactionDTO);
+            data.TransactionId = transactionID;
+            return data;
+        }
 }

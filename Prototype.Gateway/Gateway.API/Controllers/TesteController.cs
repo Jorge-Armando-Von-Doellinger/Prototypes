@@ -17,6 +17,21 @@ public class TesteController : ControllerBase
     {
         _processTransactions = processTransactions;
     }
+
+    [HttpGet]
+    public async Task<ActionResult> GetTransactions()
+    {
+        var transaction = await _processTransactions.GetAllTransaction();
+        return Ok(transaction);
+    }
+
+    [HttpGet("ID")]
+    public async Task<ActionResult> GetTransactionByID(string ID)
+    {
+        var transactions = await _processTransactions.GetTransactionByID(ID);
+        return Ok(transactions);
+    }
+
     [HttpPost]
     public async Task<ActionResult<InternalResponse>> Get(TransactionDTO transaction)
     {
