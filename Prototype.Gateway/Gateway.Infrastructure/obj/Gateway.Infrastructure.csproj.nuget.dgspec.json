@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Infrastructure\\Gateway.Infrastructure.csproj": {}
+    "c:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Infrastructure\\Gateway.Infrastructure.csproj": {}
   },
   "projects": {
     "c:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Core\\Gateway.Core.csproj": {
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Infrastructure\\Gateway.Infrastructure.csproj": {
+    "c:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Infrastructure\\Gateway.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Infrastructure\\Gateway.Infrastructure.csproj",
+        "projectUniqueName": "c:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Infrastructure\\Gateway.Infrastructure.csproj",
         "projectName": "Gateway.Infrastructure",
-        "projectPath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Infrastructure\\Gateway.Infrastructure.csproj",
+        "projectPath": "c:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Infrastructure\\Gateway.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Nome\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Infrastructure\\obj\\",
+        "outputPath": "c:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -126,6 +126,10 @@
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.28.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [

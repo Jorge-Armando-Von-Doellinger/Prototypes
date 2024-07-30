@@ -9,18 +9,22 @@ using MongoDB.Bson.Serialization;
 using System.Text.Json.Nodes;
 using MongoDB.Bson.IO;
 using System.Text.Json.Serialization;
+using Newtonsoft.Json.Linq;
+using Gateway.Infrastructure.Services;
 
 namespace Gateway.Infrastructure.Repository;
 
 public class TransactionRepository : ITransactionRepository
 {
     private readonly IMongoCollection<BsonDocument> _collection;
+    private readonly JsonManipulationService _jsonService;
 
     private const string ErrorDataConvert = "Erro ao converter os dados da transação!";
 
-    public TransactionRepository(Collections collection)
+    public TransactionRepository(Collections collection, JsonManipulationService jsonService)
     {
         _collection = collection.GetDataCollection();
+        _jsonService = jsonService; 
     }
 
     public async Task<bool> AddTransaction(TransactionEntity transaction)
@@ -80,12 +84,8 @@ public class TransactionRepository : ITransactionRepository
             var transaction = new List<JsonObject>();
             foreach(var document in documents.ToList())
             {
-                var json = BsonSerializer.Deserialize<string>(documents.ToBsonDocument());
-                System.Console.WriteLine("Não é possivel brasil");
-                //JsonObject? dataObject = JsonNode.Parse(json).AsObject();
-                if(json == null)
-                    System.Console.WriteLine("Não é possivel");
-                //transaction.Add(json);
+                JsonObject data = _jsonService.ConvertForObject(document.ToJson());
+                transaction.Add(data);
             }
             return Task.FromResult(transaction);
         }
