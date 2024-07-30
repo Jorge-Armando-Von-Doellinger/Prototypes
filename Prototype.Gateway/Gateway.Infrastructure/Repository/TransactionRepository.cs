@@ -66,8 +66,14 @@ public class TransactionRepository : ITransactionRepository
     {
         try
         {
-            var document = await _collection.FindAsync(new BsonDocument().Add("_id", ID));
-            return await _jsonService.ConvertForObject(document.ToJson());
+            ObjectId objectId = ObjectId.Parse(ID);
+            using(var cursor = await _collection.FindAsync(new BsonDocument { { "_id", objectId } }))
+            {
+                var documents = await cursor.ToListAsync();
+                var data = documents.First().ToJson();
+                await Task.Delay(10);
+                return await Task.FromResult(_jsonService.ConvertForObject(data));
+            }
         }
         catch(Exception ex)
         {
@@ -95,16 +101,20 @@ public class TransactionRepository : ITransactionRepository
         }
     }
 
-    public async Task<bool> UpdateTransaction(TransactionEntity transaction)
+    public async Task<bool> UpdateTransaction(TransactionEntity transaction, string transactionID)
     {
         try
         {
+            Console.WriteLine(transaction.DataJson.ToString());
             var dataParseSucess = BsonDocument.TryParse(transaction.DataJson.ToString(), out BsonDocument data);
             if(dataParseSucess)
             {
-                var filter = Builders<BsonDocument>.Filter.Eq("_id", transaction.TransactionId);
-                var update = new BsonDocument { { "$set", data } };
-                await _collection.UpdateOneAsync(filter, update);
+                var objectID = ObjectId.Parse(transactionID);
+                var filter = Builders<BsonDocument>.Filter.Eq("_id", objectID);
+                var updateDefinition = Builders<BsonDocument>.Update.Combine(
+                    data.Elements.Select(e => Builders<BsonDocument>.Update.Set(e.Name, e.Value))
+        );
+                await _collection.UpdateOneAsync(filter, updateDefinition   );
                 return true;
             }
             throw new Exception(ErrorDataConvert);

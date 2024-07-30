@@ -25,11 +25,4 @@ public class DataService
         
         return await Task.FromResult( _mapper.Map(transactionDTO) );
     }
-
-        public async Task<TransactionEntity> DataManipulation(TransactionDTO transactionDTO, string transactionID)
-        {
-            var data = await DataManipulation(transactionDTO);
-            data.TransactionId = transactionID;
-            return data;
-        }
 }

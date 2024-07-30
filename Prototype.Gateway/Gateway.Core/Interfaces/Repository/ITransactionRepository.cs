@@ -9,7 +9,7 @@ namespace Gateway.Core.Interfaces.Repository
         Task<List<JsonObject>> GetTransactions();
         Task<JsonObject> GetTransactionByID(string ID);
         Task<bool> AddTransaction(TransactionEntity transaction);
-        Task<bool> UpdateTransaction(TransactionEntity transaction);
+        Task<bool> UpdateTransaction(TransactionEntity transaction, string transactionID);
         Task<bool> DeleteTransaction(string ID);
     }
 }

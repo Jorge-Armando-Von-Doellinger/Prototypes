@@ -13,7 +13,7 @@ public class JsonManipulationService
 
     internal string FixJson(string json)
     {
-        var data = json.Replace("ObjectId(", null).Replace(")", "");
+        string data = json.Replace("ObjectId(", null).Replace(")", "");
         return data;
     }
 }

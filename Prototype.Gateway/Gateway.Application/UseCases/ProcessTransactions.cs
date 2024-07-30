@@ -1,4 +1,5 @@
 using System.ComponentModel.Design.Serialization;
+using System.Text.Json.Nodes;
 using Amazon.Runtime.Internal;
 using Gateway.Application.DataValidations;
 using Gateway.Application.DTOs;
@@ -51,9 +52,10 @@ public class ProcessTransactions
     {
         try
         {
-            var transaction = await _dataService.DataManipulation(data, transactionID);
-            if(await _repository.UpdateTransaction(transaction) == false)
-                throw new Exception();
+            var transaction = await _dataService.DataManipulation(data);
+            Console.WriteLine(transaction.DataJson.ToString());
+            if(await _repository.UpdateTransaction(transaction, transactionID) == false)
+                throw new Exception(OperationError);
         }
         catch (Exception ex)
         {
@@ -80,7 +82,7 @@ public class ProcessTransactions
     {
         try 
         {
-            var data = await _repository.GetTransactions();
+            List<JsonObject> data = await _repository.GetTransactions();
             await Task.Run(() => _response.ListDataJson = data);
         }
         catch (Exception ex)
@@ -94,10 +96,10 @@ public class ProcessTransactions
     {
         try
         {
-            var data = await _repository.GetTransactionByID(transactionID);
-            if(data != null)
-                _response.DataJson = data;
-            throw new Exception(OperationError);
+            JsonObject data = await _repository.GetTransactionByID(transactionID);
+            if(data == null)
+                throw new Exception(OperationError);
+            _response.DataJson = data;
         }
         catch (Exception ex)
         {

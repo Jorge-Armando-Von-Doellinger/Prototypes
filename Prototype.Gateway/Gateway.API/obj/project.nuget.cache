@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "quvQfE//vkk=",
+  "dgSpecHash": "ChsnqFrRhhk=",
   "success": true,
-  "projectFilePath": "c:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.API\\Gateway.API.csproj",
+  "projectFilePath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.API\\Gateway.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nome\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Nome\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
