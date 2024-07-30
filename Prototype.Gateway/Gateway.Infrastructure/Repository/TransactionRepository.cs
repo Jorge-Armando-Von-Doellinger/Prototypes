@@ -9,7 +9,6 @@ using MongoDB.Bson.Serialization;
 using System.Text.Json.Nodes;
 using MongoDB.Bson.IO;
 using System.Text.Json.Serialization;
-using Newtonsoft.Json.Linq;
 using Gateway.Infrastructure.Services;
 
 namespace Gateway.Infrastructure.Repository;
@@ -68,7 +67,7 @@ public class TransactionRepository : ITransactionRepository
         try
         {
             var document = await _collection.FindAsync(new BsonDocument().Add("_id", ID));
-            return await Task.FromResult(JsonSerializer.Deserialize<JsonObject>(document.ToJson()));
+            return await _jsonService.ConvertForObject(document.ToJson());
         }
         catch(Exception ex)
         {
