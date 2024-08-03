@@ -1,5 +1,6 @@
 using Gateway.Application.DTOs;
 using Gateway.Application.UseCases;
+using Gateway.Core.Configs;
 using Gateway.Core.Entity;
 using Gateway.Core.Responses;
 using Microsoft.AspNetCore.Mvc;
@@ -35,7 +36,8 @@ public class TesteController : ControllerBase
     [HttpPost]
     public async Task<ActionResult<InternalResponse>> AddTransaction(TransactionDTO transaction)
     {
-        var result = await _processTransactions.AddProcess(transaction, "client");
+        var result = await _processTransactions.AddProcess(data: transaction,
+                        routingKey: ClientMessagingSettings.PostClientRouting);
         return Ok(result);
     }
 

@@ -53,7 +53,8 @@ public class TransactionRepository : ITransactionRepository
     {
         try
         {
-            await _collection.DeleteOneAsync(new BsonDocument().Add("_id", ID));
+            ObjectId objectId = ObjectId.Parse(ID);
+            await _collection.DeleteOneAsync(new BsonDocument().Add("_id", objectId));
             return true;
         }
         catch (Exception ex)
@@ -105,17 +106,18 @@ public class TransactionRepository : ITransactionRepository
     {
         try
         {
-            Console.WriteLine(transaction.DataJson.ToString());
+            //Console.WriteLine(transaction.DataJson.ToString());
             var dataParseSucess = BsonDocument.TryParse(transaction.DataJson.ToString(), out BsonDocument data);
             if(dataParseSucess)
             {
                 var objectID = ObjectId.Parse(transactionID);
                 var filter = Builders<BsonDocument>.Filter.Eq("_id", objectID);
-                var updateDefinition = Builders<BsonDocument>.Update.Combine(
-                    data.Elements.Select(e => Builders<BsonDocument>.Update.Set(e.Name, e.Value))
-        );
-                await _collection.UpdateOneAsync(filter, updateDefinition   );
-                return true;
+                data.Add("origin", transaction.Origin);
+                data.Add("destination", transaction.Destination);
+                ReplaceOneResult? a = await _collection.ReplaceOneAsync(filter, data);
+                if(a.ModifiedCount > 0)
+                    return true;
+                return false;
             }
             throw new Exception(ErrorDataConvert);
         }

@@ -10,18 +10,18 @@ namespace HMS.Infrastructure.Messaging
         {
             var factory = new ConnectionFactory
             {
-                HostName = "rabbitmq",
+                HostName = "localhost",
                 Port = 5672
             };
             var connection = factory.CreateConnection();
             var channel = connection.CreateModel();
-            channel.QueueDeclare(queue: MessagingSettings.QueueName,
+            /*channel.QueueDeclare(queue: MessagingSettings.QueueName,
                                  durable: false,
                                  exclusive: false,
                                  autoDelete: false,
                                  arguments: null);
             channel.ExchangeDeclare(exchange: MessagingSettings.Exchange,
-                                    type: MessagingSettings.TypeExchange);
+                                    type: MessagingSettings.TypeExchange);*/
             return channel;
         }
     }

@@ -8,9 +8,9 @@ namespace Gateway.Application.Services;
 
 public class DataService
 {
-    private readonly TransactionMapper _mapper;
+    private readonly Mapper _mapper;
     private readonly TransactionValidation _validation;
-    public DataService(TransactionMapper mapper, TransactionValidation validation)
+    public DataService(Mapper mapper, TransactionValidation validation)
     {
          _mapper = mapper;
          _validation = validation;
@@ -23,6 +23,10 @@ public class DataService
         if(await _validation.SimpleValidation(transactionDTO) == false)
             throw new Exception("Dados inválidos!");
         
-        return await Task.FromResult( _mapper.Map(transactionDTO) );
+        return await Task.FromResult( _mapper.TransactionMapper.Map(transactionDTO) );
+    }
+    public async Task<MessageEntity> DataManipulation(TransactionEntity transaction)
+    {
+        return await _mapper.MessageMapper.MapClient(transaction);
     }
 }

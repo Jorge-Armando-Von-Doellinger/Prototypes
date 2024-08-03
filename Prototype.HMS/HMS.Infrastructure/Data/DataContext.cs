@@ -8,14 +8,14 @@ namespace HMS.Infrastructure.Data
     {
         private readonly string connectionTest = "Server=localhost,1433;" +
                                                         "Database=HmsPrototype;" +
-                                                        "User Id=sa;" +
+                                                        "User Id=SA;" +
                                                         "Password=MyStrongPassword123!;" +
                                                         "TrustServerCertificate=True;";
 
         public DataContext(DbContextOptions<DataContext> options) : base(options)
         {
         }
-        /*   // Construtor sem Injecao de Dependencia
+           // Construtor sem Injecao de Dependencia
         public DataContext() {
             
         }
@@ -32,7 +32,7 @@ namespace HMS.Infrastructure.Data
             {
                 optionsBuilder.UseSqlServer(connectionTest);
             }
-        }*/
+        }
 
         public DbSet<Client> Clients { get; set; }
 

@@ -1,3 +1,4 @@
+using System.Globalization;
 using System.Text.Json.Nodes;
 
 namespace Gateway.Infrastructure.Services;
@@ -10,6 +11,7 @@ public class JsonManipulationService
         var jsonFixed = FixJson(json);
         return JsonNode.Parse(jsonFixed).AsObject();
     }
+
 
     internal string FixJson(string json)
     {

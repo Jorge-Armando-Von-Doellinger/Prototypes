@@ -27,13 +27,31 @@ namespace HMS.Infrastructure.Messaging
 
         public async Task StartListener()
         {
-            _channel.QueueDeclarePassive(MessagingSettings.QueueName);
+            string queue = "prototype-hms-1";
+            string exchange = "prototype-hms-1";
+            string post = "client.post";
+            //_channel.QueueDeclarePassive(MessagingSettings.QueueName);
             //_channel.QueueDeclare(MessagingSettings.QueueName);
+            _channel.ExchangeDeclare(exchange, "direct");
+
+            _channel.QueueDeclare(queue,
+                false,
+                false,
+                false,
+                null);
+            _channel.QueueBind(queue,
+                exchange,
+                post);
+
+            _channel.ExchangeBind(destination: exchange,
+                source: exchange,
+                routingKey: post);
             var consumer = new EventingBasicConsumer(model: _channel);
             consumer.Received += (sender, args) =>
             {
-                //Console.WriteLine($"Data recieved on key: {args.RoutingKey}");
-                //Console.WriteLine($"Data: {}");//
+                Console.WriteLine($"Data recieved on key: {args.RoutingKey}");
+                //Console.WriteLine($"Data: {}");
+
                 _messageProcessor.ProcessMessage(routingKey: args.RoutingKey,
                                                 message: args.Body.ToArray()).Wait();
             };
@@ -41,7 +59,8 @@ namespace HMS.Infrastructure.Messaging
                                     autoAck: true,
                                     consumerTag: "", 
                                     noLocal: false, 
-                                    exclusive: false,                                    arguments: null,
+                                    exclusive: false,
+                                    arguments: null,
                                     consumer: consumer);
             Console.WriteLine("Recebido?????");
         }

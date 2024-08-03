@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E6F7CBEF-69BC-4CD0-9398-C4F756787495}|HMS.Infrastructure\\HMS.Infrastructure.csproj|c:\\users\\nome\\documents\\prototypes\\prototypes\\prototype.hms\\hms.infrastructure\\messaging\\channelfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6F7CBEF-69BC-4CD0-9398-C4F756787495}|HMS.Infrastructure\\HMS.Infrastructure.csproj|solutionrelative:hms.infrastructure\\messaging\\channelfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE99D99B-0B9A-4840-8F85-DD3694C97002}|HMS.Application\\HMS.Application.csproj|c:\\users\\nome\\documents\\prototypes\\prototypes\\prototype.hms\\hms.application\\usecases\\messagebusprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE99D99B-0B9A-4840-8F85-DD3694C97002}|HMS.Application\\HMS.Application.csproj|solutionrelative:hms.application\\usecases\\messagebusprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E6F7CBEF-69BC-4CD0-9398-C4F756787495}|HMS.Infrastructure\\HMS.Infrastructure.csproj|c:\\users\\nome\\documents\\prototypes\\prototypes\\prototype.hms\\hms.infrastructure\\messaging\\messagelistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6F7CBEF-69BC-4CD0-9398-C4F756787495}|HMS.Infrastructure\\HMS.Infrastructure.csproj|solutionrelative:hms.infrastructure\\messaging\\messagelistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E6F7CBEF-69BC-4CD0-9398-C4F756787495}|HMS.Infrastructure\\HMS.Infrastructure.csproj|c:\\users\\nome\\documents\\prototypes\\prototypes\\prototype.hms\\hms.infrastructure\\messaging\\channelfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6F7CBEF-69BC-4CD0-9398-C4F756787495}|HMS.Infrastructure\\HMS.Infrastructure.csproj|solutionrelative:hms.infrastructure\\messaging\\channelfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2AB806-AD36-4EA5-B806-8AC629D7F76C}|HMS.Core\\HMS.Core.csproj|c:\\users\\nome\\documents\\prototypes\\prototypes\\prototype.hms\\hms.core\\messaging\\messagingsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2AB806-AD36-4EA5-B806-8AC629D7F76C}|HMS.Core\\HMS.Core.csproj|solutionrelative:hms.core\\messaging\\messagingsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E6F7CBEF-69BC-4CD0-9398-C4F756787495}|HMS.Infrastructure\\HMS.Infrastructure.csproj|c:\\users\\nome\\documents\\prototypes\\prototypes\\prototype.hms\\hms.infrastructure\\messaging\\messagepublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6F7CBEF-69BC-4CD0-9398-C4F756787495}|HMS.Infrastructure\\HMS.Infrastructure.csproj|solutionrelative:hms.infrastructure\\messaging\\messagepublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C0942A3-708E-46DA-AC4E-E8FD5699108B}|HMS.API\\HMS.API.csproj|c:\\users\\nome\\documents\\prototypes\\prototypes\\prototype.hms\\hms.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C0942A3-708E-46DA-AC4E-E8FD5699108B}|HMS.API\\HMS.API.csproj|solutionrelative:hms.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE99D99B-0B9A-4840-8F85-DD3694C97002}|HMS.Application\\HMS.Application.csproj|c:\\users\\nome\\documents\\prototypes\\prototypes\\prototype.hms\\hms.application\\usecases\\messagebusprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE99D99B-0B9A-4840-8F85-DD3694C97002}|HMS.Application\\HMS.Application.csproj|solutionrelative:hms.application\\usecases\\messagebusprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0C0942A3-708E-46DA-AC4E-E8FD5699108B}|HMS.API\\HMS.API.csproj|c:\\users\\nome\\documents\\prototypes\\prototypes\\prototype.hms\\hms.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -35,10 +43,6 @@
       "RelativeMoniker": "D:0:0:{E6F7CBEF-69BC-4CD0-9398-C4F756787495}|HMS.Infrastructure\\HMS.Infrastructure.csproj|solutionrelative:hms.infrastructure\\persistence\\repository\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B2AB806-AD36-4EA5-B806-8AC629D7F76C}|HMS.Core\\HMS.Core.csproj|c:\\users\\nome\\documents\\prototypes\\prototypes\\prototype.hms\\hms.core\\messaging\\messagingsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B2AB806-AD36-4EA5-B806-8AC629D7F76C}|HMS.Core\\HMS.Core.csproj|solutionrelative:hms.core\\messaging\\messagingsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0C0942A3-708E-46DA-AC4E-E8FD5699108B}|HMS.API\\HMS.API.csproj|c:\\users\\nome\\documents\\prototypes\\prototypes\\prototype.hms\\hms.api\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C0942A3-708E-46DA-AC4E-E8FD5699108B}|HMS.API\\HMS.API.csproj|solutionrelative:hms.api\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -53,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0C0942A3-708E-46DA-AC4E-E8FD5699108B}|HMS.API\\HMS.API.csproj|c:\\users\\nome\\documents\\prototypes\\prototypes\\prototype.hms\\hms.api\\apimodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C0942A3-708E-46DA-AC4E-E8FD5699108B}|HMS.API\\HMS.API.csproj|solutionrelative:hms.api\\apimodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C0942A3-708E-46DA-AC4E-E8FD5699108B}|HMS.API\\HMS.API.csproj|c:\\users\\nome\\documents\\prototypes\\prototypes\\prototype.hms\\hms.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C0942A3-708E-46DA-AC4E-E8FD5699108B}|HMS.API\\HMS.API.csproj|solutionrelative:hms.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,11 +66,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.API\\appsettings.json",
               "RelativeDocumentMoniker": "HMS.API\\appsettings.json",
@@ -78,18 +78,17 @@
               "RelativeToolTip": "HMS.API\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-28T17:49:49.892Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-28T17:49:49.892Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ChannelFactory.cs",
               "DocumentMoniker": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.Infrastructure\\Messaging\\ChannelFactory.cs",
               "RelativeDocumentMoniker": "HMS.Infrastructure\\Messaging\\ChannelFactory.cs",
               "ToolTip": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.Infrastructure\\Messaging\\ChannelFactory.cs",
               "RelativeToolTip": "HMS.Infrastructure\\Messaging\\ChannelFactory.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBcAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-27T21:29:58.582Z",
               "EditorCaption": ""
@@ -102,39 +101,40 @@
               "RelativeDocumentMoniker": "HMS.Infrastructure\\Messaging\\MessagePublisher.cs",
               "ToolTip": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.Infrastructure\\Messaging\\MessagePublisher.cs",
               "RelativeToolTip": "HMS.Infrastructure\\Messaging\\MessagePublisher.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAiwBUAAAAOAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA2wBEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-27T20:13:51.564Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MessageListener.cs",
               "DocumentMoniker": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.Infrastructure\\Messaging\\MessageListener.cs",
               "RelativeDocumentMoniker": "HMS.Infrastructure\\Messaging\\MessageListener.cs",
               "ToolTip": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.Infrastructure\\Messaging\\MessageListener.cs",
               "RelativeToolTip": "HMS.Infrastructure\\Messaging\\MessageListener.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAIAwwBYAAAAiAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAiwCoAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-27T20:13:39.54Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "MessagingSettings.cs",
               "DocumentMoniker": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.Core\\Messaging\\MessagingSettings.cs",
               "RelativeDocumentMoniker": "HMS.Core\\Messaging\\MessagingSettings.cs",
               "ToolTip": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.Core\\Messaging\\MessagingSettings.cs",
               "RelativeToolTip": "HMS.Core\\Messaging\\MessagingSettings.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAIBAwBQAAABIAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAiwBAAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T23:36:58.769Z"
+              "WhenOpened": "2024-07-26T23:36:58.769Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "DataContext.cs",
               "DocumentMoniker": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.Infrastructure\\Data\\DataContext.cs",
               "RelativeDocumentMoniker": "HMS.Infrastructure\\Data\\DataContext.cs",
@@ -142,12 +142,11 @@
               "RelativeToolTip": "HMS.Infrastructure\\Data\\DataContext.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAA2wAgAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T23:18:05.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-26T23:18:05.561Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "ClientRepository.cs",
               "DocumentMoniker": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.Infrastructure\\Persistence\\Repository\\ClientRepository.cs",
               "RelativeDocumentMoniker": "HMS.Infrastructure\\Persistence\\Repository\\ClientRepository.cs",
@@ -159,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "ClientUseCases.cs",
               "DocumentMoniker": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.Application\\UseCases\\ClientUseCases.cs",
               "RelativeDocumentMoniker": "HMS.Application\\UseCases\\ClientUseCases.cs",
@@ -171,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "InfrastructureModules.cs",
               "DocumentMoniker": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.Infrastructure\\InfrastructureModules.cs",
               "RelativeDocumentMoniker": "HMS.Infrastructure\\InfrastructureModules.cs",
@@ -183,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ClientController.cs",
               "DocumentMoniker": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.API\\Controllers\\ClientController.cs",
               "RelativeDocumentMoniker": "HMS.API\\Controllers\\ClientController.cs",
@@ -195,19 +194,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.API\\Program.cs",
               "RelativeDocumentMoniker": "HMS.API\\Program.cs",
               "ToolTip": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.API\\Program.cs",
               "RelativeToolTip": "HMS.API\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAOAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA4wBMAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-26T19:43:28.64Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ApiModule.cs",
               "DocumentMoniker": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.API\\ApiModule.cs",
               "RelativeDocumentMoniker": "HMS.API\\ApiModule.cs",
@@ -219,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ApplicationModule.cs",
               "DocumentMoniker": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.Application\\ApplicationModule.cs",
               "RelativeDocumentMoniker": "HMS.Application\\ApplicationModule.cs",
@@ -231,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "MessageBusProcessor.cs",
               "DocumentMoniker": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.Application\\UseCases\\MessageBusProcessor.cs",
               "RelativeDocumentMoniker": "HMS.Application\\UseCases\\MessageBusProcessor.cs",
@@ -239,8 +238,7 @@
               "RelativeToolTip": "HMS.Application\\UseCases\\MessageBusProcessor.cs",
               "ViewState": "AQIAAE8AAAAAAAAAAAAiwCYAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T19:24:07.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-26T19:24:07.564Z"
             }
           ]
         }

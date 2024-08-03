@@ -38,6 +38,7 @@ namespace HMS.API.Controllers
         [HttpPost]
         public async Task<IActionResult> AddClient(ClientDTO newClient)
         {
+            System.Console.WriteLine(newClient.Name);
             await _messagePublisher.Publish(newClient, "client.post");
             return Ok("");
         }

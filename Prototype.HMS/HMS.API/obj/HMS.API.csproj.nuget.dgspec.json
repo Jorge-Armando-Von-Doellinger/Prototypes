@@ -35,9 +35,6 @@
             "projectReferences": {
               "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.Application\\HMS.Application.csproj": {
                 "projectPath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.Application\\HMS.Application.csproj"
-              },
-              "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.Infrastructure\\HMS.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.HMS\\HMS.Infrastructure\\HMS.Infrastructure.csproj"
               }
             }
           }

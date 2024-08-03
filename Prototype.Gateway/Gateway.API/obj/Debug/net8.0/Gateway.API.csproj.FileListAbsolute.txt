@@ -14,7 +14,6 @@ C:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.API\obj\
 C:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.API\obj\Debug\net8.0\Gateway.API.AssemblyInfoInputs.cache
 C:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.API\obj\Debug\net8.0\Gateway.API.AssemblyInfo.cs
 C:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.API\obj\Debug\net8.0\Gateway.API.csproj.CoreCompileInputs.cache
-C:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.API\obj\Debug\net8.0\Gateway.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.API\obj\Debug\net8.0\Gateway.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.API\obj\Debug\net8.0\Gateway.API.sourcelink.json
 C:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.API\obj\Debug\net8.0\staticwebassets.build.json
@@ -50,3 +49,6 @@ c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.API\bin\
 c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.API\bin\Debug\net8.0\Gateway.Application.pdb
 c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.API\bin\Debug\net8.0\Gateway.Core.pdb
 c:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.API\bin\Debug\net8.0\Gateway.Infrastructure.pdb
+C:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.API\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.API\obj\Debug\net8.0\Gateway.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Nome\Documents\Prototypes\Prototypes\Prototype.Gateway\Gateway.API\bin\Debug\net8.0\Newtonsoft.Json.dll

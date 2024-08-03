@@ -3,24 +3,80 @@
   "WorkspaceRootPath": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D77992C-0A75-4C78-8A48-35482A44CB5F}|Gateway.Infrastructure\\Gateway.Infrastructure.csproj|c:\\users\\nome\\documents\\prototypes\\prototypes\\prototype.gateway\\gateway.infrastructure\\repository\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D77992C-0A75-4C78-8A48-35482A44CB5F}|Gateway.Infrastructure\\Gateway.Infrastructure.csproj|solutionrelative:gateway.infrastructure\\repository\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EDFA738C-11CE-417B-8056-6FD0D3D6795C}|Gateway.Core\\Gateway.Core.csproj|c:\\users\\nome\\documents\\prototypes\\prototypes\\prototype.gateway\\gateway.core\\entity\\clientupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDFA738C-11CE-417B-8056-6FD0D3D6795C}|Gateway.Core\\Gateway.Core.csproj|solutionrelative:gateway.core\\entity\\clientupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDFA738C-11CE-417B-8056-6FD0D3D6795C}|Gateway.Core\\Gateway.Core.csproj|c:\\users\\nome\\documents\\prototypes\\prototypes\\prototype.gateway\\gateway.core\\configs\\clientmessagingsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDFA738C-11CE-417B-8056-6FD0D3D6795C}|Gateway.Core\\Gateway.Core.csproj|solutionrelative:gateway.core\\configs\\clientmessagingsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D77992C-0A75-4C78-8A48-35482A44CB5F}|Gateway.Infrastructure\\Gateway.Infrastructure.csproj|c:\\users\\nome\\documents\\prototypes\\prototypes\\prototype.gateway\\gateway.infrastructure\\services\\jsonmanipulationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D77992C-0A75-4C78-8A48-35482A44CB5F}|Gateway.Infrastructure\\Gateway.Infrastructure.csproj|solutionrelative:gateway.infrastructure\\services\\jsonmanipulationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9D77992C-0A75-4C78-8A48-35482A44CB5F}|Gateway.Infrastructure\\Gateway.Infrastructure.csproj|c:\\users\\nome\\documents\\prototypes\\prototypes\\prototype.gateway\\gateway.infrastructure\\messaging\\messagepublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D77992C-0A75-4C78-8A48-35482A44CB5F}|Gateway.Infrastructure\\Gateway.Infrastructure.csproj|solutionrelative:gateway.infrastructure\\messaging\\messagepublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDFA738C-11CE-417B-8056-6FD0D3D6795C}|Gateway.Core\\Gateway.Core.csproj|c:\\users\\nome\\documents\\prototypes\\prototypes\\prototype.gateway\\gateway.core\\interfaces\\messaging\\imessagepublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDFA738C-11CE-417B-8056-6FD0D3D6795C}|Gateway.Core\\Gateway.Core.csproj|solutionrelative:gateway.core\\interfaces\\messaging\\imessagepublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D77992C-0A75-4C78-8A48-35482A44CB5F}|Gateway.Infrastructure\\Gateway.Infrastructure.csproj|c:\\users\\nome\\documents\\prototypes\\prototypes\\prototype.gateway\\gateway.infrastructure\\messaging\\channelfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D77992C-0A75-4C78-8A48-35482A44CB5F}|Gateway.Infrastructure\\Gateway.Infrastructure.csproj|solutionrelative:gateway.infrastructure\\messaging\\channelfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D77992C-0A75-4C78-8A48-35482A44CB5F}|Gateway.Infrastructure\\Gateway.Infrastructure.csproj|c:\\users\\nome\\documents\\prototypes\\prototypes\\prototype.gateway\\gateway.infrastructure\\messaging\\channeldeclare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D77992C-0A75-4C78-8A48-35482A44CB5F}|Gateway.Infrastructure\\Gateway.Infrastructure.csproj|solutionrelative:gateway.infrastructure\\messaging\\channeldeclare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09AA034F-0808-4DD0-BC7C-6AFBC5B79AA3}|Gateway.API\\Gateway.API.csproj|c:\\users\\nome\\documents\\prototypes\\prototypes\\prototype.gateway\\gateway.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09AA034F-0808-4DD0-BC7C-6AFBC5B79AA3}|Gateway.API\\Gateway.API.csproj|solutionrelative:gateway.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D77992C-0A75-4C78-8A48-35482A44CB5F}|Gateway.Infrastructure\\Gateway.Infrastructure.csproj|c:\\users\\nome\\documents\\prototypes\\prototypes\\prototype.gateway\\gateway.infrastructure\\infrastructuremodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D77992C-0A75-4C78-8A48-35482A44CB5F}|Gateway.Infrastructure\\Gateway.Infrastructure.csproj|solutionrelative:gateway.infrastructure\\infrastructuremodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{63AD88E5-3EE0-48FF-A023-C1B68A571FE5}|Gateway.Application\\Gateway.Application.csproj|c:\\users\\nome\\documents\\prototypes\\prototypes\\prototype.gateway\\gateway.application\\usecases\\processtransactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63AD88E5-3EE0-48FF-A023-C1B68A571FE5}|Gateway.Application\\Gateway.Application.csproj|solutionrelative:gateway.application\\usecases\\processtransactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDFA738C-11CE-417B-8056-6FD0D3D6795C}|Gateway.Core\\Gateway.Core.csproj|c:\\users\\nome\\documents\\prototypes\\prototypes\\prototype.gateway\\gateway.core\\interfaces\\repository\\itransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDFA738C-11CE-417B-8056-6FD0D3D6795C}|Gateway.Core\\Gateway.Core.csproj|solutionrelative:gateway.core\\interfaces\\repository\\itransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{63AD88E5-3EE0-48FF-A023-C1B68A571FE5}|Gateway.Application\\Gateway.Application.csproj|c:\\users\\nome\\documents\\prototypes\\prototypes\\prototype.gateway\\gateway.application\\applicationmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63AD88E5-3EE0-48FF-A023-C1B68A571FE5}|Gateway.Application\\Gateway.Application.csproj|solutionrelative:gateway.application\\applicationmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63AD88E5-3EE0-48FF-A023-C1B68A571FE5}|Gateway.Application\\Gateway.Application.csproj|c:\\users\\nome\\documents\\prototypes\\prototypes\\prototype.gateway\\gateway.application\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63AD88E5-3EE0-48FF-A023-C1B68A571FE5}|Gateway.Application\\Gateway.Application.csproj|solutionrelative:gateway.application\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63AD88E5-3EE0-48FF-A023-C1B68A571FE5}|Gateway.Application\\Gateway.Application.csproj|c:\\users\\nome\\documents\\prototypes\\prototypes\\prototype.gateway\\gateway.application\\map\\messagemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63AD88E5-3EE0-48FF-A023-C1B68A571FE5}|Gateway.Application\\Gateway.Application.csproj|solutionrelative:gateway.application\\map\\messagemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09AA034F-0808-4DD0-BC7C-6AFBC5B79AA3}|Gateway.API\\Gateway.API.csproj|c:\\users\\nome\\documents\\prototypes\\prototypes\\prototype.gateway\\gateway.api\\controllers\\testecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09AA034F-0808-4DD0-BC7C-6AFBC5B79AA3}|Gateway.API\\Gateway.API.csproj|solutionrelative:gateway.api\\controllers\\testecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63AD88E5-3EE0-48FF-A023-C1B68A571FE5}|Gateway.Application\\Gateway.Application.csproj|c:\\users\\nome\\documents\\prototypes\\prototypes\\prototype.gateway\\gateway.application\\map\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63AD88E5-3EE0-48FF-A023-C1B68A571FE5}|Gateway.Application\\Gateway.Application.csproj|solutionrelative:gateway.application\\map\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{63AD88E5-3EE0-48FF-A023-C1B68A571FE5}|Gateway.Application\\Gateway.Application.csproj|c:\\users\\nome\\documents\\prototypes\\prototypes\\prototype.gateway\\gateway.application\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63AD88E5-3EE0-48FF-A023-C1B68A571FE5}|Gateway.Application\\Gateway.Application.csproj|solutionrelative:gateway.application\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDFA738C-11CE-417B-8056-6FD0D3D6795C}|Gateway.Core\\Gateway.Core.csproj|c:\\users\\nome\\documents\\prototypes\\prototypes\\prototype.gateway\\gateway.core\\interfaces\\messaging\\imessagelistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDFA738C-11CE-417B-8056-6FD0D3D6795C}|Gateway.Core\\Gateway.Core.csproj|solutionrelative:gateway.core\\interfaces\\messaging\\imessagelistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D77992C-0A75-4C78-8A48-35482A44CB5F}|Gateway.Infrastructure\\Gateway.Infrastructure.csproj|c:\\users\\nome\\documents\\prototypes\\prototypes\\prototype.gateway\\gateway.infrastructure\\repository\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D77992C-0A75-4C78-8A48-35482A44CB5F}|Gateway.Infrastructure\\Gateway.Infrastructure.csproj|solutionrelative:gateway.infrastructure\\repository\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDFA738C-11CE-417B-8056-6FD0D3D6795C}|Gateway.Core\\Gateway.Core.csproj|c:\\users\\nome\\documents\\prototypes\\prototypes\\prototype.gateway\\gateway.core\\interfaces\\repository\\itransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDFA738C-11CE-417B-8056-6FD0D3D6795C}|Gateway.Core\\Gateway.Core.csproj|solutionrelative:gateway.core\\interfaces\\repository\\itransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{09AA034F-0808-4DD0-BC7C-6AFBC5B79AA3}|Gateway.API\\Gateway.API.csproj|c:\\users\\nome\\documents\\prototypes\\prototypes\\prototype.gateway\\gateway.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -34,11 +90,193 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientUpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Core\\Entity\\ClientUpdateDTO.cs",
+              "RelativeDocumentMoniker": "Gateway.Core\\Entity\\ClientUpdateDTO.cs",
+              "ToolTip": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Core\\Entity\\ClientUpdateDTO.cs",
+              "RelativeToolTip": "Gateway.Core\\Entity\\ClientUpdateDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T18:30:49.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.API\\Program.cs",
+              "RelativeDocumentMoniker": "Gateway.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.API\\Program.cs",
+              "RelativeToolTip": "Gateway.API\\Program.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA2wBEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T22:54:06.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientMessagingSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Core\\Configs\\ClientMessagingSettings.cs",
+              "RelativeDocumentMoniker": "Gateway.Core\\Configs\\ClientMessagingSettings.cs",
+              "ToolTip": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Core\\Configs\\ClientMessagingSettings.cs",
+              "RelativeToolTip": "Gateway.Core\\Configs\\ClientMessagingSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T20:16:38.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TesteController.cs",
+              "DocumentMoniker": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.API\\Controllers\\TesteController.cs",
+              "RelativeDocumentMoniker": "Gateway.API\\Controllers\\TesteController.cs",
+              "ToolTip": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.API\\Controllers\\TesteController.cs",
+              "RelativeToolTip": "Gateway.API\\Controllers\\TesteController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAA2wCgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T18:12:22.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationModule.cs",
+              "DocumentMoniker": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Application\\ApplicationModule.cs",
+              "RelativeDocumentMoniker": "Gateway.Application\\ApplicationModule.cs",
+              "ToolTip": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Application\\ApplicationModule.cs",
+              "RelativeToolTip": "Gateway.Application\\ApplicationModule.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAmwBQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T17:49:41.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MessageService.cs",
+              "DocumentMoniker": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Application\\Services\\MessageService.cs",
+              "RelativeDocumentMoniker": "Gateway.Application\\Services\\MessageService.cs",
+              "ToolTip": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Application\\Services\\MessageService.cs",
+              "RelativeToolTip": "Gateway.Application\\Services\\MessageService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAABSwBEAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T17:47:18.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Mapper.cs",
+              "DocumentMoniker": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Application\\Map\\Mapper.cs",
+              "RelativeDocumentMoniker": "Gateway.Application\\Map\\Mapper.cs",
+              "ToolTip": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Application\\Map\\Mapper.cs",
+              "RelativeToolTip": "Gateway.Application\\Map\\Mapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T17:44:34.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MessageMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Application\\Map\\MessageMapper.cs",
+              "RelativeDocumentMoniker": "Gateway.Application\\Map\\MessageMapper.cs",
+              "ToolTip": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Application\\Map\\MessageMapper.cs",
+              "RelativeToolTip": "Gateway.Application\\Map\\MessageMapper.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAA4wBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T17:31:31.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChannelDeclare.cs",
+              "DocumentMoniker": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Infrastructure\\Messaging\\ChannelDeclare.cs",
+              "RelativeDocumentMoniker": "Gateway.Infrastructure\\Messaging\\ChannelDeclare.cs",
+              "ToolTip": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Infrastructure\\Messaging\\ChannelDeclare.cs",
+              "RelativeToolTip": "Gateway.Infrastructure\\Messaging\\ChannelDeclare.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAqwAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T17:26:27.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "MessagePublisher.cs",
+              "DocumentMoniker": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Infrastructure\\Messaging\\MessagePublisher.cs",
+              "RelativeDocumentMoniker": "Gateway.Infrastructure\\Messaging\\MessagePublisher.cs",
+              "ToolTip": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Infrastructure\\Messaging\\MessagePublisher.cs",
+              "RelativeToolTip": "Gateway.Infrastructure\\Messaging\\MessagePublisher.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAA2wBYAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T17:02:01.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InfrastructureModule.cs",
+              "DocumentMoniker": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Infrastructure\\InfrastructureModule.cs",
+              "RelativeDocumentMoniker": "Gateway.Infrastructure\\InfrastructureModule.cs",
+              "ToolTip": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Infrastructure\\InfrastructureModule.cs",
+              "RelativeToolTip": "Gateway.Infrastructure\\InfrastructureModule.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAIAywBsAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T16:24:55.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChannelFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Infrastructure\\Messaging\\ChannelFactory.cs",
+              "RelativeDocumentMoniker": "Gateway.Infrastructure\\Messaging\\ChannelFactory.cs",
+              "ToolTip": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Infrastructure\\Messaging\\ChannelFactory.cs",
+              "RelativeToolTip": "Gateway.Infrastructure\\Messaging\\ChannelFactory.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAABMAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T13:25:14.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IMessagePublisher.cs",
+              "DocumentMoniker": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Core\\Interfaces\\Messaging\\IMessagePublisher.cs",
+              "RelativeDocumentMoniker": "Gateway.Core\\Interfaces\\Messaging\\IMessagePublisher.cs",
+              "ToolTip": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Core\\Interfaces\\Messaging\\IMessagePublisher.cs",
+              "RelativeToolTip": "Gateway.Core\\Interfaces\\Messaging\\IMessagePublisher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T13:20:24.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IMessageListener.cs",
+              "DocumentMoniker": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Core\\Interfaces\\Messaging\\IMessageListener.cs",
+              "RelativeDocumentMoniker": "Gateway.Core\\Interfaces\\Messaging\\IMessageListener.cs",
+              "ToolTip": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Core\\Interfaces\\Messaging\\IMessageListener.cs",
+              "RelativeToolTip": "Gateway.Core\\Interfaces\\Messaging\\IMessageListener.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T13:20:04.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "ITransactionRepository.cs",
               "DocumentMoniker": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Core\\Interfaces\\Repository\\ITransactionRepository.cs",
               "RelativeDocumentMoniker": "Gateway.Core\\Interfaces\\Repository\\ITransactionRepository.cs",
@@ -51,65 +289,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
               "Title": "DataService.cs",
               "DocumentMoniker": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Application\\Services\\DataService.cs",
               "RelativeDocumentMoniker": "Gateway.Application\\Services\\DataService.cs",
               "ToolTip": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Application\\Services\\DataService.cs",
               "RelativeToolTip": "Gateway.Application\\Services\\DataService.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA2wBoAAAAFAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAmwBsAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-30T18:50:50.534Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 19,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Gateway.API\\Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.API\\Properties\\launchSettings.json",
               "RelativeToolTip": "Gateway.API\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAAAcAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAABowBcAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-07-30T18:34:28.365Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "ProcessTransactions.cs",
               "DocumentMoniker": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Application\\UseCases\\ProcessTransactions.cs",
               "RelativeDocumentMoniker": "Gateway.Application\\UseCases\\ProcessTransactions.cs",
               "ToolTip": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Application\\UseCases\\ProcessTransactions.cs",
               "RelativeToolTip": "Gateway.Application\\UseCases\\ProcessTransactions.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAAADYAAAAxAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAiwC8AAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-30T18:32:44.679Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "JsonManipulationService.cs",
               "DocumentMoniker": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Infrastructure\\Services\\JsonManipulationService.cs",
               "RelativeDocumentMoniker": "Gateway.Infrastructure\\Services\\JsonManipulationService.cs",
               "ToolTip": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Infrastructure\\Services\\JsonManipulationService.cs",
               "RelativeToolTip": "Gateway.Infrastructure\\Services\\JsonManipulationService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAOAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAwwA8AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-30T18:31:13.051Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 17,
               "Title": "TransactionRepository.cs",
               "DocumentMoniker": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Infrastructure\\Repository\\TransactionRepository.cs",
               "RelativeDocumentMoniker": "Gateway.Infrastructure\\Repository\\TransactionRepository.cs",
               "ToolTip": "C:\\Users\\Nome\\Documents\\Prototypes\\Prototypes\\Prototype.Gateway\\Gateway.Infrastructure\\Repository\\TransactionRepository.cs",
               "RelativeToolTip": "Gateway.Infrastructure\\Repository\\TransactionRepository.cs",
-              "ViewState": "AQIAAGIAAAAAAAAAAAA2wHQAAABMAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAuwDgAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-30T18:00:18.314Z",
               "EditorCaption": ""

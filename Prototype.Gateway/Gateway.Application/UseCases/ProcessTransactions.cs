@@ -5,6 +5,7 @@ using Gateway.Application.DataValidations;
 using Gateway.Application.DTOs;
 using Gateway.Application.Map;
 using Gateway.Application.Services;
+using Gateway.Core.Entity;
 using Gateway.Core.Interfaces.Repository;
 using Gateway.Core.Responses;
 
@@ -14,14 +15,16 @@ public class ProcessTransactions
 {
     private readonly ITransactionRepository _repository;
     private readonly DataService _dataService;
+    private readonly MessageService _messageService;
     private InternalResponse _response;
 
     private const string OperationError = "Ocorreu um erro durante a operação";
-    public ProcessTransactions(ITransactionRepository repository, DataService dataService, InternalResponse response)
+    public ProcessTransactions(ITransactionRepository repository, DataService dataService, MessageService messageService ,InternalResponse response)
     {
-          _repository = repository;
-          _dataService = dataService;
-          _response = response;
+        _repository = repository;
+        _dataService = dataService;
+        _response = response;
+        _messageService = messageService;
     }
 
     private async Task SimpleCatcher(string message)
@@ -36,10 +39,13 @@ public class ProcessTransactions
     {
         try
         {
-            var transaction = await _dataService.DataManipulation(data);
+            TransactionEntity transaction = await _dataService.DataManipulation(data);
+            MessageEntity message = await _dataService.DataManipulation(transaction);
+            message.RoutingKey = routingKey;
             bool success = await _repository.AddTransaction(transaction);
             if (!success)
                 throw new Exception("Houve um erro durante a criação da transação, tente novamente!");
+            await  _messageService.PublishMessage(message);
         }
         catch (Exception ex)
         {
